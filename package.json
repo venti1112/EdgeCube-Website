@@ -1,7 +1,7 @@
 {
   "name": "edgecube-website",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,7 +9,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.5.39"
+    "@types/markdown-it": "^14.1.2",
+    "gsap": "^3.15.0",
+    "markdown-it": "^14.3.0",
+    "mcui-oreui": "^1.2.1",
+    "vue": "^3.5.39",
+    "vue-i18n": "^11.4.6"
   },
   "devDependencies": {
     "@types/node": "^24.13.2",
