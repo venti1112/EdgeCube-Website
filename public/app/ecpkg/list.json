@@ -4,9 +4,9 @@
     "nameKey": "Java",
     "icon": "coffee",
     "packages": [
-      "https://edgecube-files.ventichat.com/ecpkg/metadata/java/jre17.json",
-      "https://edgecube-files.ventichat.com/ecpkg/metadata/java/jre21.json",
-      "https://edgecube-files.ventichat.com/ecpkg/metadata/java/jre25.json"
+      "https://edgecubemc.com/app/ecpkg/metadata/java/jre17.json",
+      "https://edgecubemc.com/app/ecpkg/metadata/java/jre21.json",
+      "https://edgecubemc.com/app/ecpkg/metadata/java/jre25.json"
     ]
   },
   {
@@ -14,7 +14,7 @@
     "nameKey": "Frp",
     "icon": "wifi",
     "packages": [
-      "https://edgecube-files.ventichat.com/ecpkg/metadata/frp/frpc0.69.1.json"
+      "https://edgecubemc.com/app/ecpkg/metadata/frp/frpc0.69.1.json"
     ]
   }
 ]
