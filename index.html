@@ -2,9 +2,66 @@
 <html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.png" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>EdgeCube</title>
+    <title>EdgeCube - 在手机上管理和运行 Minecraft 服务端</title>
+    <script>
+      (function () {
+        var ua = navigator.userAgent;
+        var isIE = /*@cc_on!@*/false || !!document.documentMode;
+        if (isIE) {
+          document.write(
+            '<div style="display:flex;align-items:center;justify-content:center;height:100vh;font-size:18px;color:#fff;background:#1a1a2e;font-family:sans-serif;text-align:center;padding:20px;box-sizing:border-box">' +
+              '<div><h1>浏览器版本过旧</h1><p>检测到您正在使用 Internet Explorer，该浏览器不被支持。</p><p>请使用最新版的 Chrome、Edge 或 Firefox 浏览器访问此网站。</p></div>' +
+            '</div>'
+          );
+          return;
+        }
+        if (ua.indexOf('Edge/') !== -1 && ua.indexOf('Edg/') === -1) {
+          document.write(
+            '<div style="display:flex;align-items:center;justify-content:center;height:100vh;font-size:18px;color:#fff;background:#1a1a2e;font-family:sans-serif;text-align:center;padding:20px;box-sizing:border-box">' +
+              '<div><h1>浏览器版本过旧</h1><p>检测到您正在使用旧版 Edge（EdgeHTML），该浏览器不被支持。</p><p>请使用最新版的 Chrome、Edge 或 Firefox 浏览器访问此网站。</p></div>' +
+            '</div>'
+          );
+          return;
+        }
+        var ffMatch = ua.match(/Firefox\/(\d+)/);
+        if (ffMatch) {
+          var ffVersion = parseInt(ffMatch[1], 10);
+          if (ffVersion < 80) {
+            document.write(
+              '<div style="display:flex;align-items:center;justify-content:center;height:100vh;font-size:18px;color:#fff;background:#1a1a2e;font-family:sans-serif;text-align:center;padding:20px;box-sizing:border-box">' +
+                '<div><h1>浏览器版本过旧</h1><p>您使用的 Firefox 版本过低（' + ffVersion + '），请升级至 Firefox 80 或更高版本后再访问此网站。</p><p>建议使用最新版的 Chrome、Edge 或 Firefox 浏览器。</p></div>' +
+              '</div>'
+            );
+          }
+          return;
+        }
+        var safariMatch = ua.match(/Version\/(\d+)/) && ua.indexOf('Safari/') !== -1 && ua.indexOf('Chrome/') === -1;
+        if (safariMatch) {
+          var safariVersion = parseInt(ua.match(/Version\/(\d+)/)[1], 10);
+          if (safariVersion < 14) {
+            document.write(
+              '<div style="display:flex;align-items:center;justify-content:center;height:100vh;font-size:18px;color:#fff;background:#1a1a2e;font-family:sans-serif;text-align:center;padding:20px;box-sizing:border-box">' +
+                '<div><h1>浏览器版本过旧</h1><p>您使用的 Safari 版本过低（' + safariVersion + '），请升级至 Safari 14 或更高版本后再访问此网站。</p><p>建议使用最新版的 Chrome、Edge 或 Firefox 浏览器。</p></div>' +
+              '</div>'
+            );
+          }
+          return;
+        }
+        var match = ua.match(/Chrome\/(\d+)/);
+        if (match) {
+          var version = parseInt(match[1], 10);
+          if (version < 85) {
+            document.write(
+              '<div style="display:flex;align-items:center;justify-content:center;height:100vh;font-size:18px;color:#fff;background:#1a1a2e;font-family:sans-serif;text-align:center;padding:20px;box-sizing:border-box">' +
+                '<div><h1>浏览器版本过旧</h1><p>您使用的浏览器版本过低（Chromium ' + version + '），请升级至 Chromium 85 或更高版本后再访问此网站。</p><p>建议使用最新版的 Chrome、Edge 或 Firefox 浏览器。</p></div>' +
+              '</div>'
+            );
+          }
+        }
+      })();
+    </script>
   </head>
   <body>
     <div id="app"></div>

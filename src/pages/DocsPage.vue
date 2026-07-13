@@ -4,7 +4,7 @@ import MarkdownIt from 'markdown-it'
 import { useI18n } from 'vue-i18n'
 
 const md = new MarkdownIt({ html: true, linkify: true })
-const { locale } = useI18n()
+const { t, locale } = useI18n()
 
 interface SidebarItem {
   labelZh: string
@@ -104,7 +104,7 @@ onMounted(() => {
     <aside class="docs-sidebar" :class="{ 'sidebar-open': sidebarOpen }">
       <div class="sidebar-header-mobile">
         <span class="sidebar-header-title">{{ lang() === 'en' ? 'TOC' : '目录' }}</span>
-        <mc-button variant="normal" size="small" @click="closeSidebar">✕</mc-button>
+        <mc-button variant="normal" size="small" @click="closeSidebar">{{ t('nav.close') }}</mc-button>
       </div>
       <div v-for="group in sidebar" :key="group.labelZh" class="sidebar-group">
         <div class="sidebar-group-title">{{ sidebarLabel(group) }}</div>
@@ -357,7 +357,7 @@ onMounted(() => {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 8px 12px;
+    padding: 12px 8px 12px;
     border-bottom: 1px solid var(--mc-border-dark, #1E1E1F);
     margin-bottom: 12px;
   }
@@ -372,7 +372,7 @@ onMounted(() => {
 
   .docs-sidebar {
     position: fixed;
-    top: 0;
+    top: 48px;
     left: -260px;
     bottom: 0;
     width: 240px;

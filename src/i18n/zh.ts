@@ -5,6 +5,7 @@ export default {
     download: '下载',
     docs: '文档',
     about: '关于',
+    close: '收起',
   },
   home: {
     title: 'EdgeCube',
@@ -12,6 +13,17 @@ export default {
     tagline: '轻量、高效、开箱即用的移动端 Minecraft 服务端管理器',
     startDownload: '立即下载',
     learnMore: '了解更多',
+  },
+  download: {
+    title: '下载 EdgeCube',
+    subtitle: '选择你的平台，开始你的 Minecraft 服务端之旅',
+    copy: '复制',
+    copied: '已复制',
+    btn: '下载',
+  },
+  intro: {
+    title: '功能特性',
+    desc: 'EdgeCube 提供丰富而强大的功能，让你在手机上也能拥有 PC 级服务端管理体验。',
     features: [
       {
         title: '一键启停 · 实时监控',
@@ -63,47 +75,12 @@ export default {
       },
     ],
   },
-  download: {
-    title: '下载 EdgeCube',
-    subtitle: '选择你的平台，开始你的 Minecraft 服务端之旅',
-    version: '当前版本',
-    downloadBtn: '下载',
-    platforms: [
-      { name: 'Android', desc: '支持 Android 8.0+' },
-      { name: 'iOS', desc: '支持 iOS 14+' },
-    ],
-    qrTip: '扫码下载',
-  },
-  docs: {
-    title: '使用文档',
-    intro: 'EdgeCube 是一款专为移动端设计的 Minecraft 服务端管理工具。',
-    sections: [
-      {
-        title: '快速开始',
-        items: [
-          '下载并安装 EdgeCube',
-          '打开应用，点击"创建服务端"',
-          '选择服务端核心类型（Paper / Fabric / Forge）',
-          '配置服务端参数（内存、端口等）',
-          '点击"启动"，等待服务端初始化完成',
-        ],
-      },
-      {
-        title: '常见问题',
-        items: [
-          'Q: 需要 ROOT 权限吗？\nA: 不需要，EdgeCube 使用标准 Java 进程管理。',
-          'Q: 支持哪些服务端核心？\nA: 支持 Paper、Fabric、Forge、NeoForge、Spigot、Purpur、Vanilla、Velocity 等多种核心。',
-          'Q: 如何导入现有存档？\nA: 通过文件管理器将存档放入服务端的 world 目录即可。',
-          'Q: 服务端运行耗电吗？\nA: 服务端运行时会持续占用资源，建议连接电源使用。',
-          'Q: 如何让外网好友加入？\nA: 使用 UPnP 自动端口映射或 FRP 隧道将服务暴露到公网。',
-          'Q: 支持模组服务端吗？\nA: 支持 Fabric、Forge、NeoForge 模组加载器，可在线搜索安装模组。',
-        ],
-      },
-    ],
-  },
-  intro: {
-    title: '功能特性',
-    desc: 'EdgeCube 提供丰富而强大的功能，让你在手机上也能拥有 PC 级服务端管理体验。',
+  footer: {
+    version: '当前网页版本：{0}',
+    builtWith: '本网页使用 {0} 构建',
+    usesMcui: '使用 {0} UI 组件',
+    disclaimer: '本软件和开发团队与 Mojang、Microsoft 无任何关联，也不是其认可项目。Minecraft 为 Mojang AB 注册商标',
+    copyright: '{0} EdgeCube 开发团队版权所有，使用 {1} 在 {2} 上开源',
   },
   about: {
     title: '关于 EdgeCube',

@@ -55,7 +55,7 @@ async function copyLink(key: string, url: string) {
 
 onMounted(async () => {
   try {
-    const res = await fetch('https://edgecube-files.ventichat.com/app/updates.json')
+    const res = await fetch('/app/updates.json')
     const json: UpdatesJson = await res.json()
     data.value = json
   } catch {
@@ -100,9 +100,9 @@ onMounted(async () => {
             </div>
             <div class="link-actions">
               <mc-button variant="normal" size="small" @click="copyLink(vkey + '-' + li, link.url)">
-                {{ copiedKey === vkey + '-' + li ? '已复制' : '复制' }}
+                {{ copiedKey === vkey + '-' + li ? t('download.copied') : t('download.copy') }}
               </mc-button>
-              <mc-button variant="primary" size="small" @click="openUrl(link.url)">下载</mc-button>
+              <mc-button variant="primary" size="small" @click="openUrl(link.url)">{{ t('download.btn') }}</mc-button>
             </div>
           </div>
         </div>

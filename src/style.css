@@ -8,8 +8,8 @@ html, body {
 body {
   overflow-y: auto;
   height: auto;
-  -webkit-user-select: text;
-  user-select: text;
+  -webkit-user-select: auto;
+  user-select: auto;
   scrollbar-color: var(--mc-bg-header, #E6E8EB) var(--mc-bg, #48494A);
   scrollbar-width: auto;
 }

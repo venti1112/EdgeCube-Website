@@ -1,0 +1,126 @@
+{
+  "type": "jre",
+  "id": "jre21",
+  "name": "JRE 21",
+  "version": 1,
+  "versionName": "2026-07-05",
+  "minAppVersion": 15,
+  "description": "Java 21 Runtime",
+  "author": "venti1112",
+  "homepage": "https://github.com/venti1112/EdgeCubePackage-JRE",
+  "repository": "https://github.com/venti1112/EdgeCubePackage-JRE",
+  "publishedAt": "2026-07-05T00:00:00Z",
+  "releaseNotes": "First release",
+  "packages": {
+    "multi": {
+      "arch": [
+        "arm",
+        "aarch64",
+        "x86_64"
+      ],
+      "size": 63873420,
+      "sha256": "38eb95adddf19aae6816aaf1ea4e17acba044768fe29a39b59f877474bdb541e",
+      "urls": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/venti1112/EdgeCubePackage-JRE/releases/download/2026-07-05/jre21-multi.ecpkg",
+          "type": "direct",
+          "extra": "Github 直链，连通性较差，部分地区可能无法下载"
+        },
+        {
+          "name": "Gitee",
+          "url": "https://gitee.com/venti1112/EdgeCubePackage-JRE/releases/download/2026-07-05/jre21-multi.ecpkg",
+          "type": "direct",
+          "extra": "Gitee 直链，连通性很好，国内下载迅速"
+        },
+        {
+          "name": "木韩网盘",
+          "url": "https://pan.mcbebbs.cn/s/AlVS5",
+          "type": "web",
+          "extra": "备用，自行下载导入"
+        }
+      ]
+    },
+    "arm": {
+      "arch": [
+        "arm"
+      ],
+      "size": 42194415,
+      "sha256": "f85ab1a81ebe2dcf0121271542106cd77eb63480a90d6ed51f2085020ead7291",
+      "urls": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/venti1112/EdgeCubePackage-JRE/releases/download/2026-07-05/jre21-arm.ecpkg",
+          "type": "direct",
+          "extra": "Github 直链，连通性较差，部分地区可能无法下载"
+        },
+        {
+          "name": "Gitee",
+          "url": "https://gitee.com/venti1112/EdgeCubePackage-JRE/releases/download/2026-07-05/jre21-arm.ecpkg",
+          "type": "direct",
+          "extra": "Gitee 直链，连通性很好，国内下载迅速"
+        },
+        {
+          "name": "木韩网盘",
+          "url": "https://pan.mcbebbs.cn/s/1L3cK",
+          "type": "web",
+          "extra": "备用，自行下载导入"
+        }
+      ]
+    },
+    "aarch64": {
+      "arch": [
+        "aarch64"
+      ],
+      "size": 44265375,
+      "sha256": "3ec5c68f2bbd394c782b03fa1a3246bd9d8b0c52879303946750ec4930238387",
+      "urls": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/venti1112/EdgeCubePackage-JRE/releases/download/2026-07-05/jre21-aarch64.ecpkg",
+          "type": "direct",
+          "extra": "Github 直链，连通性较差，部分地区可能无法下载"
+        },
+        {
+          "name": "Gitee",
+          "url": "https://gitee.com/venti1112/EdgeCubePackage-JRE/releases/download/2026-07-05/jre21-aarch64.ecpkg",
+          "type": "direct",
+          "extra": "Gitee 直链，连通性很好，国内下载迅速"
+        },
+        {
+          "name": "木韩网盘",
+          "url": "https://pan.mcbebbs.cn/s/WdLin",
+          "type": "web",
+          "extra": "备用，自行下载导入"
+        }
+      ]
+    },
+    "x86_64": {
+      "arch": [
+        "x86_64"
+      ],
+      "size": 44691188,
+      "sha256": "02214dd23f45ea10757205f5fe9610228872d743a01eeeb79d76369cc81ba074",
+      "urls": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/venti1112/EdgeCubePackage-JRE/releases/download/2026-07-05/jre21-x86_64.ecpkg",
+          "type": "direct",
+          "extra": "Github 直链，连通性较差，部分地区可能无法下载"
+        },
+        {
+          "name": "Gitee",
+          "url": "https://gitee.com/venti1112/EdgeCubePackage-JRE/releases/download/2026-07-05/jre21-x86_64.ecpkg",
+          "type": "direct",
+          "extra": "Gitee 直链，连通性很好，国内下载迅速"
+        },
+        {
+          "name": "木韩网盘",
+          "url": "https://pan.mcbebbs.cn/s/3xZu8",
+          "type": "web",
+          "extra": "备用，自行下载导入"
+        }
+      ]
+    }
+  }
+}

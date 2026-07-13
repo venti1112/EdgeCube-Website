@@ -1,0 +1,126 @@
+{
+  "type": "frpc",
+  "id": "frpc0.69.1",
+  "name": "frpc0.69.1",
+  "version": 1,
+  "versionName": "2026-07-05",
+  "minAppVersion": 15,
+  "description": "frp client runtime for EdgeCube.",
+  "author": "venti1112",
+  "homepage": "https://github.com/venti1112/EdgeCubePackage-Frpc",
+  "repository": "https://github.com/venti1112/EdgeCubePackage-Frpc",
+  "publishedAt": "2026-07-05T00:00:00Z",
+  "releaseNotes": "First release",
+  "packages": {
+    "multi": {
+      "arch": [
+        "arm",
+        "aarch64",
+        "x86_64"
+      ],
+      "size": 18051046,
+      "sha256": "e185e824e9a482a218f94ef37d87e1f4959fa3544635554a612c85efc509fa27",
+      "urls": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/venti1112/EdgeCubePackage-Frpc/releases/download/Frpc0.69.1/frpc0.69.1-multi.ecpkg",
+          "type": "direct",
+          "extra": "Github 直链，连通性较差，部分地区可能无法下载"
+        },
+        {
+          "name": "Gitee",
+          "url": "https://gitee.com/venti1112/EdgeCubePackage-Frpc/releases/download/Frpc0.69.1/frpc0.69.1-multi.ecpkg",
+          "type": "direct",
+          "extra": "Gitee 直链，连通性很好，国内下载迅速"
+        },
+        {
+          "name": "木韩网盘",
+          "url": "https://pan.mcbebbs.cn/s/MG2S3",
+          "type": "web",
+          "extra": "备用，自行下载导入"
+        }
+      ]
+    },
+    "arm": {
+      "arch": [
+        "arm"
+      ],
+      "size": 5988083,
+      "sha256": "0d7cefa4386c47b17c507e0fceefa8d4d25a0fdc259ea50a1520651523090c22",
+      "urls": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/venti1112/EdgeCubePackage-Frpc/releases/download/Frpc0.69.1/frpc0.69.1-arm.ecpkg",
+          "type": "direct",
+          "extra": "Github 直链，连通性较差，部分地区可能无法下载"
+        },
+        {
+          "name": "Gitee",
+          "url": "https://gitee.com/venti1112/EdgeCubePackage-Frpc/releases/download/Frpc0.69.1/frpc0.69.1-arm.ecpkg",
+          "type": "direct",
+          "extra": "Gitee 直链，连通性很好，国内下载迅速"
+        },
+        {
+          "name": "木韩网盘",
+          "url": "https://pan.mcbebbs.cn/s/rlXFx",
+          "type": "web",
+          "extra": "备用，自行下载导入"
+        }
+      ]
+    },
+    "aarch64": {
+      "arch": [
+        "aarch64"
+      ],
+      "size": 5725468,
+      "sha256": "771e272cd698ad8c4be0546721dc83f7014849e887bcd889a533e506970c5f6f",
+      "urls": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/venti1112/EdgeCubePackage-Frpc/releases/download/Frpc0.69.1/frpc0.69.1-aarch64.ecpkg",
+          "type": "direct",
+          "extra": "Github 直链，连通性较差，部分地区可能无法下载"
+        },
+        {
+          "name": "Gitee",
+          "url": "https://gitee.com/venti1112/EdgeCubePackage-Frpc/releases/download/Frpc0.69.1/frpc0.69.1-aarch64.ecpkg",
+          "type": "direct",
+          "extra": "Gitee 直链，连通性很好，国内下载迅速"
+        },
+        {
+          "name": "木韩网盘",
+          "url": "https://pan.mcbebbs.cn/s/e1XT3",
+          "type": "web",
+          "extra": "备用，自行下载导入"
+        }
+      ]
+    },
+    "x86_64": {
+      "arch": [
+        "x86_64"
+      ],
+      "size": 6338445,
+      "sha256": "aab00c73bd45260ffb770a9b503155ef7f2867ac5bca2858d51fd986d85b5784",
+      "urls": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/venti1112/EdgeCubePackage-Frpc/releases/download/Frpc0.69.1/frpc0.69.1-x86_64.ecpkg",
+          "type": "direct",
+          "extra": "Github 直链，连通性较差，部分地区可能无法下载"
+        },
+        {
+          "name": "Gitee",
+          "url": "https://gitee.com/venti1112/EdgeCubePackage-Frpc/releases/download/Frpc0.69.1/frpc0.69.1-x86_64.ecpkg",
+          "type": "direct",
+          "extra": "Gitee 直链，连通性很好，国内下载迅速"
+        },
+        {
+          "name": "木韩网盘",
+          "url": "https://pan.mcbebbs.cn/s/EZrF3",
+          "type": "web",
+          "extra": "备用，自行下载导入"
+        }
+      ]
+    }
+  }
+}

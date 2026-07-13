@@ -1,0 +1,54 @@
+{
+  "stable": {
+    "version": "1.0.0-bata19",
+    "build": 19,
+    "sha256": "f86f6488d462fa7ffb07832ce3573233d558fb8b5c783911b6b6cf4816cd8ed0",
+    "releaseNotes": "1.修复部分版本Forge服务端启动后报错“找不到主类”的问题；\n2.重构文件下载引擎，现在可以显示速度及预计完成时间等更详细的信息了；\n3.修复自定义DNS功能不生效的问题。",
+    "download_links": [
+      {
+        "name": "Github",
+        "url": "https://github.com/venti1112/EdgeCube/releases/download/v1.0.0-beta19/EdgeCube-v1.0.0-beta19.apk",
+        "type": "direct",
+        "extra": "Github 直链，连通性较差，部分地区可能无法下载"
+      },
+      {
+        "name": "Gitee",
+        "url": "https://gitee.com/venti1112/EdgeCube/releases/download/v1.0.0-beta19/EdgeCube-v1.0.0-beta19.apk",
+        "type": "direct",
+        "extra": "Gitee 直链，连通性很好，国内下载迅速"
+      },
+      {
+        "name": "木韩网盘",
+        "url": "https://pan.mcbebbs.cn/s/KLECY",
+        "type": "web",
+        "extra": "备用，自行下载安装"
+      }
+    ]
+  },
+  "beta": {
+    "version": "1.0.0-bata19",
+    "build": 19,
+    "sha256": "f86f6488d462fa7ffb07832ce3573233d558fb8b5c783911b6b6cf4816cd8ed0",
+    "releaseNotes": "1.修复部分版本Forge服务端启动后报错“找不到主类”的问题；\n2.重构文件下载引擎，现在可以显示速度及预计完成时间等更详细的信息了；\n3.修复自定义DNS功能不生效的问题。",
+    "download_links": [
+      {
+        "name": "Github",
+        "url": "https://github.com/venti1112/EdgeCube/releases/download/v1.0.0-beta19/EdgeCube-v1.0.0-beta19.apk",
+        "type": "direct",
+        "extra": "Github 直链，连通性较差，部分地区可能无法下载"
+      },
+      {
+        "name": "Gitee",
+        "url": "https://gitee.com/venti1112/EdgeCube/releases/download/v1.0.0-beta19/EdgeCube-v1.0.0-beta19.apk",
+        "type": "direct",
+        "extra": "Gitee 直链，连通性很好，国内下载迅速"
+      },
+      {
+        "name": "木韩网盘",
+        "url": "https://pan.mcbebbs.cn/s/KLECY",
+        "type": "web",
+        "extra": "备用，自行下载安装"
+      }
+    ]
+  }
+}

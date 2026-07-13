@@ -5,6 +5,7 @@ export default {
     download: 'Download',
     docs: 'Docs',
     about: 'About',
+    close: 'Close',
   },
   home: {
     title: 'EdgeCube',
@@ -12,6 +13,17 @@ export default {
     tagline: 'Lightweight, efficient, out-of-the-box mobile Minecraft server manager',
     startDownload: 'Download',
     learnMore: 'Learn More',
+  },
+  download: {
+    title: 'Download EdgeCube',
+    subtitle: 'Pick your platform and start your Minecraft server journey',
+    copy: 'Copy',
+    copied: 'Copied',
+    btn: 'Download',
+  },
+  intro: {
+    title: 'Features',
+    desc: 'EdgeCube delivers powerful features that bring a PC-grade server management experience to your mobile device.',
     features: [
       {
         title: 'One-Click Control · Real-Time Monitor',
@@ -63,47 +75,12 @@ export default {
       },
     ],
   },
-  download: {
-    title: 'Download EdgeCube',
-    subtitle: 'Pick your platform and start your Minecraft server journey',
-    version: 'Current Version',
-    downloadBtn: 'Download',
-    platforms: [
-      { name: 'Android', desc: 'Supports Android 8.0+' },
-      { name: 'iOS', desc: 'Supports iOS 14+' },
-    ],
-    qrTip: 'Scan to download',
-  },
-  docs: {
-    title: 'Documentation',
-    intro: 'EdgeCube is a mobile-first Minecraft server management tool.',
-    sections: [
-      {
-        title: 'Quick Start',
-        items: [
-          'Download and install EdgeCube',
-          'Open the app and tap "Create Server"',
-          'Choose a server core type (Paper / Fabric / Forge)',
-          'Configure server settings (memory, port, etc.)',
-          'Tap "Start" and wait for initialization',
-        ],
-      },
-      {
-        title: 'FAQ',
-        items: [
-          'Q: Does it require ROOT?\nA: No, EdgeCube uses standard Java process management.',
-          'Q: Which server cores are supported?\nA: Paper, Fabric, Forge, NeoForge, Spigot, Purpur, Vanilla, Velocity and more.',
-          'Q: How to import existing worlds?\nA: Place the world folder into the server\'s world directory via the file manager.',
-          'Q: Does the server drain battery?\nA: Running a server consumes resources; using a power source is recommended.',
-          'Q: How to let friends join from the internet?\nA: Use UPnP auto port mapping or FRP tunnel to expose your server.',
-          'Q: Does it support modded servers?\nA: Yes, supports Fabric, Forge, NeoForge with online mod search and installation.',
-        ],
-      },
-    ],
-  },
-  intro: {
-    title: 'Features',
-    desc: 'EdgeCube delivers powerful features that bring a PC-grade server management experience to your mobile device.',
+  footer: {
+    version: 'Version: {0}',
+    builtWith: 'Built with {0}',
+    usesMcui: 'Uses {0} UI Components',
+    disclaimer: 'This software is not affiliated with or endorsed by Mojang or Microsoft. Minecraft is a registered trademark of Mojang AB.',
+    copyright: '© {0} EdgeCube development team. Licensed under {1}, open-sourced on {2}',
   },
   about: {
     title: 'About EdgeCube',

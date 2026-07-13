@@ -2,7 +2,7 @@
 import { useI18n } from 'vue-i18n'
 
 const { t, tm } = useI18n()
-const features = tm('home.features') as unknown as { title: string; desc: string }[]
+const features = tm('intro.features') as unknown as { title: string; desc: string }[]
 </script>
 
 <template>

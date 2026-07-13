@@ -1,7 +1,10 @@
 <script setup lang="ts">
 import { ref, shallowRef, watch, onMounted, markRaw } from 'vue'
 import gsap from 'gsap'
+import { useI18n } from 'vue-i18n'
 import NavBar from './components/NavBar.vue'
+
+const { t } = useI18n()
 import HomePage from './pages/HomePage.vue'
 import IntroPage from './pages/IntroPage.vue'
 import DownloadPage from './pages/DownloadPage.vue'
@@ -72,17 +75,25 @@ function onLeave(el: Element, done: () => void) {
   <footer class="app-footer">
     <div class="footer-inner">
       <div class="footer-row">
-        <span>当前网页版本：202607122305(1)</span>
+        <span>{{ t('footer.version', ['202607132004(2)']) }}</span>
       </div>
       <div class="footer-row">
-        <span>本网页使用 <a href="https://vuejs.org" target="_blank">Vue</a> 构建</span>
-        <span>使用 <a href="https://github.com/ShenYuanOR/mcui-oreui" target="_blank">McUI Vue</a> UI 组件</span>
+        <i18n-t keypath="footer.builtWith" tag="span">
+          <a href="https://vuejs.org" target="_blank">Vue</a>
+        </i18n-t>
+        <i18n-t keypath="footer.usesMcui" tag="span">
+          <a href="https://github.com/ShenYuanOR/mcui-oreui" target="_blank">McUI Vue</a>
+        </i18n-t>
       </div>
       <div class="footer-row">
-        <span>本软件和开发团队与 Mojang、Microsoft 无任何关联，亦非其认可项目。Minecraft 为 Mojang AB 注册商标</span>
+        <span>{{ t('footer.disclaimer') }}</span>
       </div>
       <div class="footer-row">
-        <span>© {{ new Date().getFullYear() }} EdgeCube 开发团队版权所有，使用 <a href="https://www.gnu.org/licenses/gpl-3.0-standalone.html" target="_blank">GPL-3.0</a> 在 <a href="https://github.com/venti1112/EdgeCube-Website" target="_blank">GitHub</a> 上开源</span>
+        <i18n-t keypath="footer.copyright" tag="span">
+          <span>{{ new Date().getFullYear() }}</span>
+          <a href="https://www.gnu.org/licenses/gpl-3.0-standalone.html" target="_blank">GPL-3.0</a>
+          <a href="https://github.com/venti1112/EdgeCube-Website" target="_blank">GitHub</a>
+        </i18n-t>
       </div>
     </div>
   </footer>
