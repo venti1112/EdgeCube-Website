@@ -1,51 +1,51 @@
 {
   "stable": {
-    "version": "1.0.0-bata19",
-    "build": 19,
-    "sha256": "f86f6488d462fa7ffb07832ce3573233d558fb8b5c783911b6b6cf4816cd8ed0",
-    "releaseNotes": "1.修复部分版本Forge服务端启动后报错“找不到主类”的问题；\n2.重构文件下载引擎，现在可以显示速度及预计完成时间等更详细的信息了；\n3.修复自定义DNS功能不生效的问题。",
+    "version": "1.0.0-bata20",
+    "build": 20,
+    "sha256": "93ef2b0e4bf0fb02a2edff5c253fca9ffd63de4b99ceacac1a688832595c9a3a",
+    "releaseNotes": "1.优化文件/文件夹选择器操作逻辑，现在退回操作会映射为退回上级目录；\n2.移除不必要的数据重载，优化程序性能；\n3.修复在服务端下载页退回时有概率乱弹软键盘的问题；\n4.增加proot容器文件管理功能；\n5.优化文件编辑器报错页面；\n6.增加Forge/NeoForge安装器支持使用proot内的JDK进行运行；\n7.增加原生运行时与proot的优先级设置；\n8.移除没用的账号系统及在线服务功能；\n9.更新服务端崩溃信息分析器；\n10.完善翻译系统；\n11.更新用户协议。",
     "download_links": [
       {
         "name": "Github",
-        "url": "https://github.com/venti1112/EdgeCube/releases/download/v1.0.0-beta19/EdgeCube-v1.0.0-beta19.apk",
+        "url": "https://github.com/venti1112/EdgeCube/releases/download/v1.0.0-beta20/EdgeCube-v1.0.0-beta20.apk",
         "type": "direct",
         "extra": "Github 直链，连通性较差，部分地区可能无法下载"
       },
       {
         "name": "Gitee",
-        "url": "https://gitee.com/venti1112/EdgeCube/releases/download/v1.0.0-beta19/EdgeCube-v1.0.0-beta19.apk",
+        "url": "https://gitee.com/venti1112/EdgeCube/releases/download/v1.0.0-beta20/EdgeCube-v1.0.0-beta20.apk",
         "type": "direct",
         "extra": "Gitee 直链，连通性很好，国内下载迅速"
       },
       {
         "name": "木韩网盘",
-        "url": "https://pan.mcbebbs.cn/s/KLECY",
+        "url": "https://pan.mcbebbs.cn/s/dq2Ij",
         "type": "web",
         "extra": "备用，自行下载安装"
       }
     ]
   },
   "beta": {
-    "version": "1.0.0-bata19",
-    "build": 19,
-    "sha256": "f86f6488d462fa7ffb07832ce3573233d558fb8b5c783911b6b6cf4816cd8ed0",
-    "releaseNotes": "1.修复部分版本Forge服务端启动后报错“找不到主类”的问题；\n2.重构文件下载引擎，现在可以显示速度及预计完成时间等更详细的信息了；\n3.修复自定义DNS功能不生效的问题。",
+    "version": "1.0.0-bata20",
+    "build": 20,
+    "sha256": "93ef2b0e4bf0fb02a2edff5c253fca9ffd63de4b99ceacac1a688832595c9a3a",
+    "releaseNotes": "1.优化文件/文件夹选择器操作逻辑，现在退回操作会映射为退回上级目录；\n2.移除不必要的数据重载，优化程序性能；\n3.修复在服务端下载页退回时有概率乱弹软键盘的问题；\n4.增加proot容器文件管理功能；\n5.优化文件编辑器报错页面；\n6.增加Forge/NeoForge安装器支持使用proot内的JDK进行运行；\n7.增加原生运行时与proot的优先级设置；\n8.移除没用的账号系统及在线服务功能；\n9.更新服务端崩溃信息分析器；\n10.完善翻译系统；\n11.更新用户协议。",
     "download_links": [
       {
         "name": "Github",
-        "url": "https://github.com/venti1112/EdgeCube/releases/download/v1.0.0-beta19/EdgeCube-v1.0.0-beta19.apk",
+        "url": "https://github.com/venti1112/EdgeCube/releases/download/v1.0.0-beta20/EdgeCube-v1.0.0-beta20.apk",
         "type": "direct",
         "extra": "Github 直链，连通性较差，部分地区可能无法下载"
       },
       {
         "name": "Gitee",
-        "url": "https://gitee.com/venti1112/EdgeCube/releases/download/v1.0.0-beta19/EdgeCube-v1.0.0-beta19.apk",
+        "url": "https://gitee.com/venti1112/EdgeCube/releases/download/v1.0.0-beta20/EdgeCube-v1.0.0-beta20.apk",
         "type": "direct",
         "extra": "Gitee 直链，连通性很好，国内下载迅速"
       },
       {
         "name": "木韩网盘",
-        "url": "https://pan.mcbebbs.cn/s/KLECY",
+        "url": "https://pan.mcbebbs.cn/s/dq2Ij",
         "type": "web",
         "extra": "备用，自行下载安装"
       }
