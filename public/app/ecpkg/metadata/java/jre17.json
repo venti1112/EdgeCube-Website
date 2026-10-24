@@ -2,14 +2,14 @@
   "type": "jre",
   "id": "jre17",
   "name": "JRE 17",
-  "version": 1,
-  "versionName": "2026-07-05",
-  "minAppVersion": 15,
+  "version": 2,
+  "versionName": "2026-08-07",
+  "minAppVersion": 25,
   "description": "Java 17 Runtime",
   "author": "venti1112",
   "homepage": "https://github.com/venti1112/EdgeCubePackage-JRE",
   "repository": "https://github.com/venti1112/EdgeCubePackage-JRE",
-  "publishedAt": "2026-07-05T00:00:00Z",
+  "publishedAt": "2026-08-07T00:00:00Z",
   "releaseNotes": "First release",
   "packages": {
     "multi": {
@@ -18,26 +18,26 @@
         "aarch64",
         "x86_64"
       ],
-      "size": 53359695,
-      "sha256": "d1d7c3c4a699dffea2d51a7670f87c1fab10c0670d77c007835fed1149ad3e4c",
+      "size": 54603672,
+      "sha256": "c15a20e87128b2497e6ac65e160c78c25b29753d8a9d0b38efddc92a77681a6f",
       "urls": [
         {
-          "name": "GitHub",
-          "url": "https://github.com/venti1112/EdgeCubePackage-JRE/releases/download/2026-07-05/jre17-multi.ecpkg",
+          "name": "GitCode",
+          "url": "https://gitcode.com/venti1112/EdgeCubePackage-JRE/releases/download/2026-08-07/jre17-multi.ecpkg",
           "type": "direct",
-          "extra": "Github 直链，连通性较差，部分地区可能无法下载"
+          "extra": "GitCode 直链，国内连通性较好，下载快"
+        },
+        {
+          "name": "Github",
+          "url": "https://github.com/venti1112/EdgeCubePackage-JRE/releases/download/2026-08-07/jre17-multi.ecpkg",
+          "type": "direct",
+          "extra": "Github 直链，国内连通性较差，部分地区可能无法下载"
         },
         {
           "name": "Gitee",
-          "url": "https://gitee.com/venti1112/EdgeCubePackage-JRE/releases/download/2026-07-05/jre17-multi.ecpkg",
+          "url": "https://gitee.com/venti1112/EdgeCubePackage-JRE/releases/download/2026-08-07/jre17-multi.ecpkg",
           "type": "direct",
-          "extra": "Gitee 直链，连通性很好，国内下载迅速"
-        },
-        {
-          "name": "木韩网盘",
-          "url": "https://pan.mcbebbs.cn/s/8d3Up",
-          "type": "web",
-          "extra": "备用，自行下载导入"
+          "extra": "Gitee 直链，国内连通性较好，但是存在下载限速"
         }
       ]
     },
@@ -46,25 +46,25 @@
         "arm"
       ],
       "size": 37830012,
-      "sha256": "690773f461f2a03331b8c5ef28aedec623e4cff1bb57cc7b662f61361cc33012",
+      "sha256": "fac23a3e024ea7dc06f3ba910be2ccd00293cd357dc350c804e28e5135bc8c5e",
       "urls": [
         {
-          "name": "GitHub",
-          "url": "https://github.com/venti1112/EdgeCubePackage-JRE/releases/download/2026-07-05/jre17-arm.ecpkg",
+          "name": "GitCode",
+          "url": "https://gitcode.com/venti1112/EdgeCubePackage-JRE/releases/download/2026-08-07/jre17-arm.ecpkg",
           "type": "direct",
-          "extra": "Github 直链，连通性较差，部分地区可能无法下载"
+          "extra": "GitCode 直链，国内连通性较好，下载快"
+        },
+        {
+          "name": "Github",
+          "url": "https://github.com/venti1112/EdgeCubePackage-JRE/releases/download/2026-08-07/jre17-arm.ecpkg",
+          "type": "direct",
+          "extra": "Github 直链，国内连通性较差，部分地区可能无法下载"
         },
         {
           "name": "Gitee",
-          "url": "https://gitee.com/venti1112/EdgeCubePackage-JRE/releases/download/2026-07-05/jre17-arm.ecpkg",
+          "url": "https://gitee.com/venti1112/EdgeCubePackage-JRE/releases/download/2026-08-07/jre17-arm.ecpkg",
           "type": "direct",
-          "extra": "Gitee 直链，连通性很好，国内下载迅速"
-        },
-        {
-          "name": "木韩网盘",
-          "url": "https://pan.mcbebbs.cn/s/byxhl",
-          "type": "web",
-          "extra": "备用，自行下载导入"
+          "extra": "Gitee 直链，国内连通性较好，但是存在下载限速"
         }
       ]
     },
@@ -73,25 +73,25 @@
         "aarch64"
       ],
       "size": 36624986,
-      "sha256": "3925df20aacf72a733214d8b62266a351e2d6312716a389f4ea1b05854fb54b3",
+      "sha256": "95e03b5cc2237d21be92e8434ac64d7ae50dc02c8ba89b78040bd45e6effbe3b",
       "urls": [
         {
-          "name": "GitHub",
-          "url": "https://github.com/venti1112/EdgeCubePackage-JRE/releases/download/2026-07-05/jre17-aarch64.ecpkg",
+          "name": "GitCode",
+          "url": "https://gitcode.com/venti1112/EdgeCubePackage-JRE/releases/download/2026-08-07/jre17-aarch64.ecpkg",
           "type": "direct",
-          "extra": "Github 直链，连通性较差，部分地区可能无法下载"
+          "extra": "GitCode 直链，国内连通性较好，下载快"
+        },
+        {
+          "name": "Github",
+          "url": "https://github.com/venti1112/EdgeCubePackage-JRE/releases/download/2026-08-07/jre17-aarch64.ecpkg",
+          "type": "direct",
+          "extra": "Github 直链，国内连通性较差，部分地区可能无法下载"
         },
         {
           "name": "Gitee",
-          "url": "https://gitee.com/venti1112/EdgeCubePackage-JRE/releases/download/2026-07-05/jre17-aarch64.ecpkg",
+          "url": "https://gitee.com/venti1112/EdgeCubePackage-JRE/releases/download/2026-08-07/jre17-aarch64.ecpkg",
           "type": "direct",
-          "extra": "Gitee 直链，连通性很好，国内下载迅速"
-        },
-        {
-          "name": "木韩网盘",
-          "url": "https://pan.mcbebbs.cn/s/NZzI3",
-          "type": "web",
-          "extra": "备用，自行下载导入"
+          "extra": "Gitee 直链，国内连通性较好，但是存在下载限速"
         }
       ]
     },
@@ -100,25 +100,25 @@
         "x86_64"
       ],
       "size": 38105694,
-      "sha256": "f676da3e25c9aafcf93a8ab1750b1efc772e0d6bce35b10aa9b511d5c73c7c7b",
+      "sha256": "6d47a8f392f8bb9047f3c6f85b569bdb1268d7010716b4a5ff98874b3b06d2fa",
       "urls": [
         {
-          "name": "GitHub",
-          "url": "https://github.com/venti1112/EdgeCubePackage-JRE/releases/download/2026-07-05/jre17-x86_64.ecpkg",
+          "name": "GitCode",
+          "url": "https://gitcode.com/venti1112/EdgeCubePackage-JRE/releases/download/2026-08-07/jre17-x86_64.ecpkg",
           "type": "direct",
-          "extra": "Github 直链，连通性较差，部分地区可能无法下载"
+          "extra": "GitCode 直链，国内连通性较好，下载快"
+        },
+        {
+          "name": "Github",
+          "url": "https://github.com/venti1112/EdgeCubePackage-JRE/releases/download/2026-08-07/jre17-x86_64.ecpkg",
+          "type": "direct",
+          "extra": "Github 直链，国内连通性较差，部分地区可能无法下载"
         },
         {
           "name": "Gitee",
-          "url": "https://gitee.com/venti1112/EdgeCubePackage-JRE/releases/download/2026-07-05/jre17-x86_64.ecpkg",
+          "url": "https://gitee.com/venti1112/EdgeCubePackage-JRE/releases/download/2026-08-07/jre17-x86_64.ecpkg",
           "type": "direct",
-          "extra": "Gitee 直链，连通性很好，国内下载迅速"
-        },
-        {
-          "name": "木韩网盘",
-          "url": "https://pan.mcbebbs.cn/s/D1XHM",
-          "type": "web",
-          "extra": "备用，自行下载导入"
+          "extra": "Gitee 直链，国内连通性较好，但是存在下载限速"
         }
       ]
     }

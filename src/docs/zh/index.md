@@ -14,4 +14,4 @@ EdgeCube 是一款开源、轻量的 **移动端 Minecraft 服务端管理工具
 
 ## 开源协议
 
-EdgeCube 基于 [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0-standalone.html) 协议开源，由一群热爱 Minecraft 的开发者共同维护。
+EdgeCube 基于 [AGPL-3.0](https://www.gnu.org/licenses/agpl-3.0-standalone.html) 协议开源，由一群热爱 Minecraft 的开发者共同维护。

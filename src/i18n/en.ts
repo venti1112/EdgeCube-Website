@@ -86,7 +86,7 @@ export default {
     title: 'About EdgeCube',
     desc: 'EdgeCube is an open-source Minecraft server management tool designed for mobile devices. Run Minecraft servers on Android without ROOT.',
     features: [
-      'Fully open-source under GPL-3.0',
+      'Fully open-source under AGPL-3.0',
       'Standard Java process management, no ROOT required',
       'Supports more server cores',
       'Built-in file manager, terminal, real-time monitoring',
@@ -98,6 +98,6 @@ export default {
     thanks: 'Acknowledgments',
     thanksDesc: 'Thanks to all contributors and community members.',
     license: 'License',
-    licenseDesc: 'This project is open-sourced under the GPL-3.0 license.',
+    licenseDesc: 'This project is open-sourced under the AGPL-3.0 license.',
   },
 }

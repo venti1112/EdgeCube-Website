@@ -14,7 +14,7 @@
     "nameKey": "Frp",
     "icon": "wifi",
     "packages": [
-      "https://edgecubemc.com/app/ecpkg/metadata/frp/frpc0.69.1.json"
+      "https://edgecubemc.com/app/ecpkg/metadata/frp/frpc0.70.1.json"
     ]
   }
 ]

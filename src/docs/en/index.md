@@ -14,4 +14,4 @@ EdgeCube is an open-source, lightweight **Minecraft server management tool for m
 
 ## License
 
-EdgeCube is open-sourced under the [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.html) license, maintained by a group of Minecraft enthusiasts.
+EdgeCube is open-sourced under the [AGPL-3.0](https://www.gnu.org/licenses/agpl-3.0.html) license, maintained by a group of Minecraft enthusiasts.

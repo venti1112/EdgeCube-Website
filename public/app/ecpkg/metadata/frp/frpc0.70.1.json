@@ -1,0 +1,125 @@
+{
+  "type": "frpc",
+  "id": "frpc0.70.1",
+  "name": "Frpc 0.70.1",
+  "version": 1,
+  "versionName": "2026-08-07",
+  "minAppVersion": 25,
+  "description": "frp client runtime for EdgeCube.",
+  "author": "venti1112",
+  "homepage": "https://github.com/venti1112/EdgeCubePackage-Frpc",
+  "repository": "https://github.com/venti1112/EdgeCubePackage-Frpc",
+  "releaseNotes": "First release",
+  "packages": {
+    "multi": {
+      "arch": [
+        "arm",
+        "aarch64",
+        "x86_64"
+      ],
+      "size": 18283303,
+      "sha256": "0127bbf9ca3766555f6e725e6a9547ed41ee7e5ff2e35aa8418967be5e53a5b9",
+      "urls": [
+        {
+          "name": "GitCode",
+          "url": "https://gitcode.com/venti1112/EdgeCubePackage-Frpc/releases/download/Frpc0.70.1/frpc0.70.1-multi.ecpkg",
+          "type": "direct",
+          "extra": "GitCode 直链，国内连通性较好，下载快"
+        },
+        {
+          "name": "Github",
+          "url": "https://github.com/venti1112/EdgeCubePackage-Frpc/releases/download/Frpc0.70.1/frpc0.70.1-multi.ecpkg",
+          "type": "direct",
+          "extra": "Github 直链，国内连通性较差，部分地区可能无法下载"
+        },
+        {
+          "name": "Gitee",
+          "url": "https://gitee.com/venti1112/EdgeCubePackage-Frpc/releases/download/Frpc0.70.1/frpc0.70.1-multi.ecpkg",
+          "type": "direct",
+          "extra": "Gitee 直链，国内连通性较好，但是存在下载限速"
+        }
+      ]
+    },
+    "arm": {
+      "arch": [
+        "arm"
+      ],
+      "size": 6098814,
+      "sha256": "ee01c6d43ddcbe5d89a77364698eaab0a3c35b8ac095b022e9909540cdd6fbed",
+      "urls": [
+        {
+          "name": "GitCode",
+          "url": "https://gitcode.com/venti1112/EdgeCubePackage-Frpc/releases/download/Frpc0.70.1/frpc0.70.1-arm.ecpkg",
+          "type": "direct",
+          "extra": "GitCode 直链，国内连通性较好，下载快"
+        },
+        {
+          "name": "Github",
+          "url": "https://github.com/venti1112/EdgeCubePackage-Frpc/releases/download/Frpc0.70.1/frpc0.70.1-arm.ecpkg",
+          "type": "direct",
+          "extra": "Github 直链，国内连通性较差，部分地区可能无法下载"
+        },
+        {
+          "name": "Gitee",
+          "url": "https://gitee.com/venti1112/EdgeCubePackage-Frpc/releases/download/Frpc0.70.1/frpc0.70.1-arm.ecpkg",
+          "type": "direct",
+          "extra": "Gitee 直链，国内连通性较好，但是存在下载限速"
+        }
+      ]
+    },
+    "aarch64": {
+      "arch": [
+        "aarch64"
+      ],
+      "size": 5797865,
+      "sha256": "f3e942818e4b905a929222e5b45c13976a21f1b11738f66885ec1cc4a9269030",
+      "urls": [
+        {
+          "name": "GitCode",
+          "url": "https://gitcode.com/venti1112/EdgeCubePackage-Frpc/releases/download/Frpc0.70.1/frpc0.70.1-aarch64.ecpkg",
+          "type": "direct",
+          "extra": "GitCode 直链，国内连通性较好，下载快"
+        },
+        {
+          "name": "Github",
+          "url": "https://github.com/venti1112/EdgeCubePackage-Frpc/releases/download/Frpc0.70.1/frpc0.70.1-aarch64.ecpkg",
+          "type": "direct",
+          "extra": "Github 直链，国内连通性较差，部分地区可能无法下载"
+        },
+        {
+          "name": "Gitee",
+          "url": "https://gitee.com/venti1112/EdgeCubePackage-Frpc/releases/download/Frpc0.70.1/frpc0.70.1-aarch64.ecpkg",
+          "type": "direct",
+          "extra": "Gitee 直链，国内连通性较好，但是存在下载限速"
+        }
+      ]
+    },
+    "x86_64": {
+      "arch": [
+        "x86_64"
+      ],
+      "size": 6387997,
+      "sha256": "1896847ac8d149c95cd44d420f976eb08b01597525f2ae980c525b7e5f6399cb",
+      "urls": [
+        {
+          "name": "GitCode",
+          "url": "https://gitcode.com/venti1112/EdgeCubePackage-Frpc/releases/download/Frpc0.70.1/frpc0.70.1-x86_64.ecpkg",
+          "type": "direct",
+          "extra": "GitCode 直链，国内连通性较好，下载快"
+        },
+        {
+          "name": "Github",
+          "url": "https://github.com/venti1112/EdgeCubePackage-Frpc/releases/download/Frpc0.70.1/frpc0.70.1-x86_64.ecpkg",
+          "type": "direct",
+          "extra": "Github 直链，国内连通性较差，部分地区可能无法下载"
+        },
+        {
+          "name": "Gitee",
+          "url": "https://gitee.com/venti1112/EdgeCubePackage-Frpc/releases/download/Frpc0.70.1/frpc0.70.1-x86_64.ecpkg",
+          "type": "direct",
+          "extra": "Gitee 直链，国内连通性较好，但是存在下载限速"
+        }
+      ]
+    }
+  }
+}

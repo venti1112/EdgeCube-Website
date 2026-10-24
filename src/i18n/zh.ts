@@ -86,7 +86,7 @@ export default {
     title: '关于 EdgeCube',
     desc: 'EdgeCube 是一款开源的 Minecraft 服务端管理工具，专为移动端设计。在 Android 设备上运行 Minecraft 服务器，无需 ROOT。',
     features: [
-      '完全开源，基于 GPL-3.0 协议',
+      '完全开源，基于 AGPL-3.0 协议',
       '使用标准 Java 进程管理，无需 ROOT',
       '支持多种服务端核心',
       '内置文件管理、终端、实时监控',
@@ -98,6 +98,6 @@ export default {
     thanks: '致谢',
     thanksDesc: '感谢所有贡献者和社区用户的支持。',
     license: '开源协议',
-    licenseDesc: '本项目基于 GPL-3.0 协议开源。',
+    licenseDesc: '本项目基于 AGPL-3.0 协议开源。',
   },
 }
